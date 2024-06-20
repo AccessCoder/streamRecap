@@ -37,7 +37,6 @@ public class Main {
     }
 
     //Diese Methode ist gleich der Pfeilmethode in unserem Filter
-    public static boolean isFruitLongEnough(String fruit){
-        return fruit.length()>=5;
-    }
+    public static boolean isFruitLongEnough(String fruit) -> fruit.length()>=5;
+
 }
